@@ -1,8 +1,6 @@
 Set-Location C:\
 
 $Shell = $Host.UI.RawUI
-$Shell.ForegroundColor = "DarkYellow"
-$Shell.BackgroundColor = "Black"
 $Shell.CursorSize = 100
 $Shell.WindowSize.Width = 180
 $Shell.WindowSize.Height = 60
