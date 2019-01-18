@@ -1,2 +1,2 @@
-Set-Location C:\
+Set-Location %USERPROFILE%
 Clear-Host
