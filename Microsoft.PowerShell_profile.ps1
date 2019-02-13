@@ -3,5 +3,5 @@ Function Prompt {
     "$Path > "
 }
 
-Set-Location %USERPROFILE%
+Set-Location $Env:USERPROFILE
 Clear-Host
