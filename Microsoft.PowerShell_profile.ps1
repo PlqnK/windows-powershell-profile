@@ -9,5 +9,5 @@ if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
 }
 
-Set-Location $Env:USERPROFILE
+Set-Location $env:USERPROFILE
 Clear-Host
