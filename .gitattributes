@@ -1,5 +1,5 @@
-# Set default behaviour, in case users don't have core.autocrlf set.
+# Set default behaviour, force UNIX-style line endings.
 * text=auto
 
 # Declare files that needs specific encoding and line endings on checkout.
-*.ps1 text working-tree-encoding=cp1252 eol=crlf
+*.ps1 text working-tree-encoding=WINDOWS-1252 eol=crlf
