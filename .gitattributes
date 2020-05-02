@@ -3,4 +3,5 @@
 
 # Declare files that needs specific encoding and line endings on checkout.
 *.ps1 text working-tree-encoding=WINDOWS-1252 eol=crlf
+packages-personal.config text eol=crlf
 packages-work.config text eol=crlf
