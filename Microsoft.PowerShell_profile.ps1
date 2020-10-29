@@ -15,5 +15,7 @@ if (Test-Path($DockerMachine)) {
     & "$DockerMachine" env docker-host | Invoke-Expression
 }
 
+New-Alias ll Get-ChildItem
+
 Set-Location $env:USERPROFILE
 Clear-Host
